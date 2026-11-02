@@ -77,3 +77,12 @@ Proprietary - Real Estate Commando
 1.0.0 - November 2025
 
 <!-- Trigger redeploy to pick up shared OPENAI_API_KEY variable -->
+
+
+## Members interface
+
+The existing forms, strategy calculations, AI calls and exports are unchanged. The interface loads bundled members styles from `static/members/`: the members app stylesheet, the business look and `tool.css` for this tool's existing layout. The stylesheet query suffixes are the first 10 characters of each file's SHA-256; refresh them whenever the file changes. The bundle is served locally by Flask, so rendering adds no request to another service.
+
+Check the initial form and results at 1280 and 390 pixels, keyboard focus and reduced motion. Exercise the existing action and PDF buttons against the running app. The deal analyzer also checks each of its 4 strategies. Theme changes do not change environment settings, usage limits or provider credentials.
+
+This repository is connected to Railway production. Updating its deployed branch is a live release; prepare and verify the change before that trigger.

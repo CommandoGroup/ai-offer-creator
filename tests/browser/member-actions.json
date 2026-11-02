@@ -1,0 +1,256 @@
+{
+  "name": "ai-offer-creator",
+  "url": "https://web-production-5bf5a.up.railway.app/",
+  "states": [
+    {
+      "state": "before",
+      "width": 1280,
+      "problems": [
+        {
+          "cls": "weight-label",
+          "text": "Attractiveness:",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 12,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SPAN",
+          "text": "Less Attractive",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 11,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SPAN",
+          "text": "More Attractive",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 11,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "weight-label",
+          "text": "Attractiveness:",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 12,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SPAN",
+          "text": "Less Attractive",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 11,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SPAN",
+          "text": "More Attractive",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 11,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SMALL",
+          "text": "Added to purchase price to cover transaction costs",
+          "ratio": 3.54,
+          "need": 4.5,
+          "px": 13.3333,
+          "fg": "rgb(136, 136, 136)",
+          "bg": "rgb(255,255,255)",
+          "disabled": false
+        },
+        {
+          "cls": "SMALL",
+          "text": "Only applies to all-cash offers",
+          "ratio": 2.68,
+          "need": 4.5,
+          "px": 13.3333,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(255,255,255)",
+          "disabled": false
+        },
+        {
+          "cls": "P",
+          "text": "These fields appear based on your selected strateg",
+          "ratio": 2.68,
+          "need": 4.5,
+          "px": 16,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(255,255,255)",
+          "disabled": false
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "state": "before",
+      "width": 390,
+      "problems": [
+        {
+          "cls": "weight-label",
+          "text": "Attractiveness:",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 12,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SPAN",
+          "text": "Less Attractive",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 11,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SPAN",
+          "text": "More Attractive",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 11,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "weight-label",
+          "text": "Attractiveness:",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 12,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SPAN",
+          "text": "Less Attractive",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 11,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SPAN",
+          "text": "More Attractive",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 11,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SMALL",
+          "text": "Added to purchase price to cover transaction costs",
+          "ratio": 3.54,
+          "need": 4.5,
+          "px": 13.3333,
+          "fg": "rgb(136, 136, 136)",
+          "bg": "rgb(255,255,255)",
+          "disabled": false
+        },
+        {
+          "cls": "SMALL",
+          "text": "Only applies to all-cash offers",
+          "ratio": 2.68,
+          "need": 4.5,
+          "px": 13.3333,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(255,255,255)",
+          "disabled": false
+        },
+        {
+          "cls": "P",
+          "text": "These fields appear based on your selected strateg",
+          "ratio": 2.68,
+          "need": 4.5,
+          "px": 16,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(255,255,255)",
+          "disabled": false
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "state": "after",
+      "width": 1280,
+      "problems": [],
+      "overflow": false
+    },
+    {
+      "state": "after",
+      "width": 390,
+      "problems": [],
+      "overflow": false
+    },
+    {
+      "state": "advanced",
+      "width": 1280,
+      "problems": [],
+      "overflow": false
+    },
+    {
+      "state": "advanced",
+      "width": 390,
+      "problems": [],
+      "overflow": false
+    },
+    {
+      "state": "results",
+      "width": 1280,
+      "problems": [],
+      "overflow": false
+    },
+    {
+      "state": "results",
+      "width": 390,
+      "problems": [],
+      "overflow": false
+    }
+  ],
+  "actions": [
+    {
+      "action": "generate",
+      "status": 200
+    },
+    {
+      "action": "pdf-branded",
+      "signature": "%PDF-",
+      "bytes": 2822
+    },
+    {
+      "action": "pdf-pro",
+      "signature": "%PDF-",
+      "bytes": 2812
+    },
+    {
+      "action": "reset",
+      "visible": true
+    }
+  ]
+}

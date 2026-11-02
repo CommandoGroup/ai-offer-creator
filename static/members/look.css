@@ -1,0 +1,23 @@
+/* Real Estate Commando's look for the members' area, laid over the members' area's own stylesheet: army green and
+   camo from REC's logo, gold from the VIP badge. */
+:root {
+  --primary: #4f6a2e; --primary-dark: #3d5323; --primary-soft: rgba(79, 106, 46, .12);
+  --gold: #c9a227; --gold-dark: #7f6511; --gold-soft: rgba(201, 162, 39, .16);
+  --ink: #1c2117; --muted: #5d6753; --line: #e2e3da; --bg: #f2f1ea; --card: #fff;
+  --night: #19210f; --night-2: #26301c; --khaki: #d8cfae;
+  --ok: #3b7a26; --ok-soft: #e7f2e0; --danger: #b42318;
+  --coach: #2f5d8c; --support: #7a4fa0;
+  --radius: 14px; --shadow: 0 1px 2px rgba(25, 33, 15, .05), 0 1px 3px rgba(25, 33, 15, .07);
+}
+
+/* camo, on the sidebar, the hero bands and the sign-in page */
+.camo { background-color: var(--night); background-image: linear-gradient(rgba(22, 30, 14, .5), rgba(22, 30, 14, .62)), url("camo.svg"); background-size: auto, 320px 320px; color: #fff; }
+.side { background-image: linear-gradient(rgba(22, 30, 14, .82), rgba(22, 30, 14, .9)), url("camo.svg"); }
+
+/* Home's War Room hero: the flag and eagle picture, the words in black on its white side (owner, 2026-10-12) */
+:root { --war-hero-bg: #ffffff; --war-hero-ink: #111111; --war-hero-accent: #b3121f; }
+
+/* The smaller copy of Home's BlackHawk picture at phone width. */
+@media (max-width: 640px) {
+  .home-pair .bh-card.has-picture { background-image: url("img/blackhawk-hawk-phone.webp"); }
+}

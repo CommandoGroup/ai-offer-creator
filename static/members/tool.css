@@ -1,0 +1,48 @@
+/* Match the members' resource frame while retaining the tool's existing controls and result layout. */
+html { min-height: 0; }
+body.member-tool { background: var(--bg) !important; color: var(--ink) !important; min-height: 0 !important; padding: 2px !important; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important; }
+.member-tool .container { max-width: 1100px !important; margin: 0 auto !important; padding: 0 !important; border-radius: 0 !important; background: transparent !important; box-shadow: none !important; overflow: visible !important; }
+.member-tool .header { background: transparent !important; color: var(--ink) !important; text-align: left !important; padding: 0 0 20px !important; margin: 0 !important; border: 0 !important; border-radius: 0 !important; box-shadow: none !important; }
+.member-tool .header :is(h1,p,.tagline) { color: var(--ink) !important; }
+.member-tool h1 { font-size: 1.65rem !important; line-height: 1.2 !important; }
+.member-tool h2 { display: block; font-size: 1.1rem !important; }
+.member-tool h3 { display: block; font-size: .95rem !important; }
+.member-tool :is(h1,h2,h3,h4,label,strong) { color: var(--ink) !important; font-family: inherit !important; }
+.member-tool h2 { border-color: var(--line) !important; }
+.member-tool :is(p,li,td,th,.offer-detail-label,.quality-metric-label,.confidence,.tagline) { color: var(--ink) !important; }
+.member-tool .main-content { padding: 0 !important; }
+.member-tool :is(.card,.section,.offer-config,.upload-card,.analysis-card,.offer-card,.score-card,.conversation-quality,.quote-section,.offer-approach,.red-flags-card,.presentation-script,.modal-content,.mode-toggle) { background: var(--card) !important; color: var(--ink) !important; border: 1px solid var(--line) !important; border-radius: var(--radius) !important; padding: 20px !important; box-shadow: var(--shadow) !important; margin-bottom: 16px; }
+.member-tool :is(.upload-card.active,.strategy-card.selected,.strategy-card.active,.offer-config.selected) { border-color: var(--primary) !important; background: var(--primary-soft) !important; }
+.member-tool :is(.strategy-card,.presets,.preset-btn,.mode-btn,.btn-export,.modal-btn) { border-radius: 10px !important; }
+.member-tool :is(input,select,textarea) { font: inherit !important; background: #fff !important; color: var(--ink) !important; border: 1px solid var(--line) !important; border-radius: 10px !important; padding: 10px 12px !important; min-height: 44px; max-width: 100%; }
+.member-tool input:is([type=radio],[type=checkbox],[type=range]) { min-height: 0; width: auto; accent-color: var(--primary); }
+.member-tool input[type=range] { width: 100%; }
+.member-tool :is(button,.btn,.btn-primary,.analyze-btn,.upload-btn,.btn-export,.modal-btn) { font: inherit !important; font-weight: 700 !important; border: 1px solid transparent !important; border-radius: 10px !important; padding: 10px 16px !important; background: var(--primary) !important; color: #fff !important; box-shadow: none !important; transform: none !important; cursor: pointer; white-space: normal !important; }
+.member-tool :is(.mode-btn,.preset-btn) { background: #fff !important; border-color: var(--line) !important; color: var(--ink) !important; }
+.member-tool :is(.mode-btn.active,.preset-btn.active) { background: var(--primary) !important; border-color: var(--primary) !important; color: #fff !important; }
+.member-tool :is(a,button,input,select,textarea,[tabindex]):focus-visible { outline: 2px solid var(--primary-dark) !important; outline-offset: 3px; box-shadow: none !important; }
+.member-tool :is(.score-number,.score-level,.weight-value,.quality-metric-value,.offer-detail-value,.strategy-info) { color: var(--primary-dark) !important; }
+.member-tool .strategy-info { background: var(--primary-soft) !important; border-color: var(--line) !important; }
+.member-tool .weight-slider :is(.weight-label,span) { color: var(--muted) !important; }
+.member-tool .offer-card > div[style*="background: #0d0d0d"] { background: var(--bg) !important; border: 1px solid var(--line); }
+.member-tool small { color: var(--muted) !important; }
+.member-tool #usageStatsBar { background: var(--primary-soft) !important; border-color: var(--primary) !important; }
+.member-tool #usageStatsBar span { color: var(--primary-dark) !important; }
+.member-tool :is(#financialObligations,#propertyDetails,#sellerRequirements,#quickMath) div { color: var(--ink) !important; }
+.member-tool .score-number { font-size: 3rem !important; }
+.member-tool table { width: 100%; table-layout: fixed; border-collapse: collapse; }
+.member-tool :is(th,td) { overflow-wrap: anywhere; border-color: var(--line) !important; }
+.member-tool .indicator-positive { background: var(--ok-soft) !important; color: var(--ok) !important; }
+.member-tool .indicator-negative { background: #fff1f0 !important; color: var(--danger) !important; }
+.member-tool .indicator-caution { background: var(--gold-soft) !important; color: var(--gold-dark) !important; }
+.member-tool .indicator-info { background: var(--primary-soft) !important; color: var(--primary-dark) !important; }
+.member-tool :is(.form-group,.offer-detail-value,.analysis-card,.quote-section) { min-width: 0; overflow-wrap: anywhere; }
+@media (max-width: 640px) {
+  .member-tool :is(.strategy-selector,.form-grid,.offer-comparison,.upload-section,.analysis-grid,.offer-details) { grid-template-columns: minmax(0,1fr) !important; gap: 12px !important; }
+  .member-tool :is(.mode-toggle,.export-buttons,.mode-buttons,.presets) { flex-wrap: wrap !important; gap: 8px !important; }
+  .member-tool :is(.card,.section,.offer-config,.upload-card,.analysis-card,.offer-card,.score-card,.modal-content) { padding: 16px !important; }
+  .member-tool .modal-content { width: calc(100% - 24px) !important; max-height: calc(100% - 24px); overflow-y: auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .member-tool *, .member-tool *::before, .member-tool *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
