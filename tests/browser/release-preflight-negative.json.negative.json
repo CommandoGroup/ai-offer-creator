@@ -1,0 +1,211 @@
+{
+  "source_sha256": "ba7c330e00f8cfdae8e6347b736c29dcdead14551b1402aa50747d42408f757a",
+  "styles": {
+    "app": "823f1ba5f234dc51003c725b4d24cd2f3b2996a3ea84d0f3a8d53db0b359f25a",
+    "look": "658662bc7ea42e50ed8d942673e99908cef6ad74b73855e6db097832632f9b39",
+    "tool": "9ff8a978c57339294ee139a2338aa8c59a5c234322937fc928510da2f0f84eee"
+  },
+  "widths": [
+    {
+      "width": 1280,
+      "contrast": [
+        {
+          "cls": "weight-label",
+          "text": "Attractiveness:",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 12,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SPAN",
+          "text": "Less Attractive",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 11,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SPAN",
+          "text": "More Attractive",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 11,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "weight-label",
+          "text": "Attractiveness:",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 12,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SPAN",
+          "text": "Less Attractive",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 11,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SPAN",
+          "text": "More Attractive",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 11,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SMALL",
+          "text": "Added to purchase price to cover transaction costs",
+          "ratio": 3.54,
+          "need": 4.5,
+          "px": 13.3333,
+          "fg": "rgb(136, 136, 136)",
+          "bg": "rgb(255,255,255)",
+          "disabled": false
+        },
+        {
+          "cls": "SMALL",
+          "text": "Only applies to all-cash offers",
+          "ratio": 2.68,
+          "need": 4.5,
+          "px": 13.3333,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(255,255,255)",
+          "disabled": false
+        },
+        {
+          "cls": "P",
+          "text": "These fields appear based on your selected strateg",
+          "ratio": 2.68,
+          "need": 4.5,
+          "px": 16,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(255,255,255)",
+          "disabled": false
+        }
+      ],
+      "focus": [],
+      "overflow": false,
+      "motion": 4,
+      "background": "rgb(242, 241, 234)",
+      "expectedBackground": "#f2f1ea"
+    },
+    {
+      "width": 390,
+      "contrast": [
+        {
+          "cls": "weight-label",
+          "text": "Attractiveness:",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 12,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SPAN",
+          "text": "Less Attractive",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 11,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SPAN",
+          "text": "More Attractive",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 11,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "weight-label",
+          "text": "Attractiveness:",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 12,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SPAN",
+          "text": "Less Attractive",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 11,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SPAN",
+          "text": "More Attractive",
+          "ratio": 2.54,
+          "need": 4.5,
+          "px": 11,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(249,249,249)",
+          "disabled": false
+        },
+        {
+          "cls": "SMALL",
+          "text": "Added to purchase price to cover transaction costs",
+          "ratio": 3.54,
+          "need": 4.5,
+          "px": 13.3333,
+          "fg": "rgb(136, 136, 136)",
+          "bg": "rgb(255,255,255)",
+          "disabled": false
+        },
+        {
+          "cls": "SMALL",
+          "text": "Only applies to all-cash offers",
+          "ratio": 2.68,
+          "need": 4.5,
+          "px": 13.3333,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(255,255,255)",
+          "disabled": false
+        },
+        {
+          "cls": "P",
+          "text": "These fields appear based on your selected strateg",
+          "ratio": 2.68,
+          "need": 4.5,
+          "px": 16,
+          "fg": "rgb(158, 158, 158)",
+          "bg": "rgb(255,255,255)",
+          "disabled": false
+        }
+      ],
+      "focus": [],
+      "overflow": false,
+      "motion": 4,
+      "background": "rgb(242, 241, 234)",
+      "expectedBackground": "#f2f1ea"
+    }
+  ],
+  "passed": false
+}

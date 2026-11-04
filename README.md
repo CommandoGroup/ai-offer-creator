@@ -86,3 +86,8 @@ The existing forms, strategy calculations, AI calls and exports are unchanged. T
 Check the initial form and results at 1280 and 390 pixels, keyboard focus and reduced motion. Exercise the existing action and PDF buttons against the running app. The deal analyzer also checks each of its 4 strategies. Theme changes do not change environment settings, usage limits or provider credentials.
 
 This repository is connected to Railway production. Updating its deployed branch is a live release; prepare and verify the change before that trigger.
+
+
+## Maintainer handover
+
+Start with `AGENTS.md`. Current architecture, release procedure and focused checks are in `docs/ARCHITECTURE.md`, `docs/OPERATIONS.md` and `docs/VALIDATION.md`. The operations guide governs the current Railway deployment; older host and WordPress integration examples above are historical setup information.

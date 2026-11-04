@@ -1,0 +1,29 @@
+{
+  "source_sha256": "e02438a66b3f58ff8b6cbf6cadca5b6062169f3fca5077c57aadbdbc6b58f063",
+  "styles": {
+    "app": "823f1ba5f234dc51003c725b4d24cd2f3b2996a3ea84d0f3a8d53db0b359f25a",
+    "look": "658662bc7ea42e50ed8d942673e99908cef6ad74b73855e6db097832632f9b39",
+    "tool": "9ff8a978c57339294ee139a2338aa8c59a5c234322937fc928510da2f0f84eee"
+  },
+  "widths": [
+    {
+      "width": 1280,
+      "contrast": [],
+      "focus": [],
+      "overflow": false,
+      "motion": 0,
+      "background": "rgb(242, 241, 234)",
+      "expectedBackground": "#f2f1ea"
+    },
+    {
+      "width": 390,
+      "contrast": [],
+      "focus": [],
+      "overflow": false,
+      "motion": 0,
+      "background": "rgb(242, 241, 234)",
+      "expectedBackground": "#f2f1ea"
+    }
+  ],
+  "passed": true
+}
